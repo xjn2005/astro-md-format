@@ -1,5 +1,8 @@
 # @cavillxu/astro-md-format
 
+[![CI](https://github.com/xjn2005/astro-md-format/actions/workflows/ci.yml/badge.svg)](https://github.com/xjn2005/astro-md-format/actions/workflows/ci.yml)
+[![Publish](https://github.com/xjn2005/astro-md-format/actions/workflows/publish.yml/badge.svg)](https://github.com/xjn2005/astro-md-format/actions/workflows/publish.yml)
+
 一个面向中文技术博客的 Astro Markdown 排版插件。它会在 Astro 构建 Markdown / MDX 内容时，通过 remark AST 处理正文文本，让中文、英文、链接、行内代码、LaTeX 和标点的排版更稳定。
 
 ## 安装
