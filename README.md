@@ -1,11 +1,19 @@
-# @xjn2005/astro-md-format
+# @cavillxu/astro-md-format
 
 一个面向中文技术博客的 Astro Markdown 排版插件。它会在 Astro 构建 Markdown / MDX 内容时，通过 remark AST 处理正文文本，让中文、英文、链接、行内代码、LaTeX 和标点的排版更稳定。
 
 ## 安装
 
 ```bash
-npm install @xjn2005/astro-md-format
+npm install @cavillxu/astro-md-format
+```
+
+## 发布说明
+
+发布到 npm 后，可以通过下面的命令安装：
+
+```bash
+npm install @cavillxu/astro-md-format
 ```
 
 也可以在本地开发时直接从项目内引入：
@@ -20,7 +28,7 @@ import mdFormat from './packages/astro-md-format';
 
 ```js
 import { defineConfig } from 'astro/config';
-import mdFormat from '@xjn2005/astro-md-format';
+import mdFormat from '@cavillxu/astro-md-format';
 
 export default defineConfig({
   integrations: [
@@ -45,7 +53,7 @@ export default defineConfig({
 插件也导出了纯文本处理函数和 remark 插件，便于测试或在其它 Markdown 流程里复用：
 
 ```js
-import { formatMarkdownText, remarkMdFormat } from '@xjn2005/astro-md-format';
+import { formatMarkdownText, remarkMdFormat } from '@cavillxu/astro-md-format';
 ```
 
 ## 配置项
