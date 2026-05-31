@@ -325,7 +325,7 @@ export default function mdFormat(options: MdFormatOptions = {}): AstroIntegratio
   const resolvedOptions = mergeOptions(options);
 
   return {
-    name: '@xjn2005/astro-md-format',
+    name: '@cavillxu/astro-md-format',
     hooks: {
       'astro:config:setup': ({ updateConfig }) => {
         updateConfig({
