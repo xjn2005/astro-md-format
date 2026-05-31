@@ -1,10 +1,19 @@
 {
   "name": "@cavillxu/astro-md-format",
-  "version": "0.1.0",
-  "description": "Astro integration for formatting Chinese technical Markdown typography.",
+  "version": "0.1.1",
+  "description": "Astro Markdown formatting plugin for Chinese technical writing",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/xjn2005/astro-md-format",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xjn2005/astro-md-format.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xjn2005/astro-md-format/issues"
+  },
+  "author": "Jianing Xu",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -22,10 +31,11 @@
   "keywords": [
     "astro",
     "markdown",
-    "remark",
     "typography",
+    "remark",
+    "chinese",
     "cjk",
-    "chinese"
+    "mdx"
   ],
   "peerDependencies": {
     "astro": ">=5.0.0"
