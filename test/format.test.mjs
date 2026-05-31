@@ -6,7 +6,7 @@ import mdFormat, {
   formatMarkdownText,
   mergeOptions,
   remarkMdFormat,
-} from '../src/index.ts';
+} from '../dist/index.js';
 
 test('formats Chinese technical prose with default options', () => {
   assert.equal(
