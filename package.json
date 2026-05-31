@@ -1,0 +1,34 @@
+{
+  "name": "@xjn2005/astro-md-format",
+  "version": "0.1.0",
+  "description": "Astro integration for formatting Chinese technical Markdown typography.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/format.test.mjs"
+  },
+  "keywords": [
+    "astro",
+    "markdown",
+    "remark",
+    "typography",
+    "cjk",
+    "chinese"
+  ],
+  "peerDependencies": {
+    "astro": ">=5.0.0"
+  },
+  "license": "MIT"
+}
