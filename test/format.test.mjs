@@ -76,7 +76,7 @@ test('exports an Astro integration that injects the remark plugin', () => {
     updateConfig: (config) => calls.push(config),
   });
 
-  assert.equal(integration.name, '@xjn2005/astro-md-format');
+  assert.equal(integration.name, '@cavillxu/astro-md-format');
   assert.equal(calls.length, 1);
   assert.equal(calls[0].markdown.remarkPlugins.length, 1);
   assert.equal(calls[0].markdown.remarkPlugins[0][1].spaceBetweenCJKAndCode, false);
