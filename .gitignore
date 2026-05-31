@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Build output
+dist/
+lib/
+.esbuild/
+.cache/
+
+# Astro and tool caches
+.astro/
+.vite/
+.turbo/
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# TypeScript emitted files
+*.js
+*.d.ts
+*.map
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+!.env.example
